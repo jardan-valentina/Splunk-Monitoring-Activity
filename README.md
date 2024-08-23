@@ -75,3 +75,22 @@ Make sure to include a screenshot of your report along with the answers to these
 <li>Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to soc@vandalay.com.</li>
 <li>In your M19 Submission File, include a screenshot of your report and a screenshot showing that the alert has been created.</li>
 </ul>
+
+<h2>Step 3: Drawing the (Base)line</h2>
+<b>Background:</b> A Vandaly server is also experiencing brute force attacks into their administrator account. Management would like you to set up monitoring to notify the SOC team if a brute force attack occurs again.
+<b>Your Task:</b> Analyze administrator logs that document a brute force attack. Then, create a baseline of the ordinary amount of administrator bad logins and determine a threshold to indicate if a brute force attack is occurring. To do so, complete the following steps:
+<ul>
+    <li>Upload the following administrator login logs:</li>
+    <ul>
+        <li><a href="https://drive.google.com/file/d/1q5OJzVpvW0ExKuc8BtQ2LQOqpneLpUUy/view"  target="_blank">Admin Logins</a></li>
+   </ul>
+    <li>Answer the following in the M19 Submission File:</li>
+    <ul>
+        <li>(1) When did the brute force attack occur?</li>
+        <b>Hint:</b> Look for the name field to find failed logins.
+        Note that the attack lasted several hours.
+        <li>(2) Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.</li>
+        <li> (3) Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered. Provide a screenshot showing that the alert has been created.</li>
+
+ </ul>
+</ul>

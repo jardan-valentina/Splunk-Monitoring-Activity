@@ -53,3 +53,25 @@ Not only were Vandalay web servers taken offline by a DDOS attack, but upload an
 </ul>
 Make sure to include a screenshot of your report along with the answers to these questions.
 </ul>
+
+<h2>Step 2: Are We Vulnerable?</h2>
+
+<b>Background:</b> Due to the frequency of attacks, your manager needs to be sure that sensitive customer data on their servers is not vulnerable. Since Vandalay uses Nessus vulnerability scanners, you have pulled the last 24 hours of scans to see if there are any critical vulnerabilities.
+<ul>
+<li> For more information on Nessus, refer to the following link: <a href="https://www.tenable.com/products/nessus" target="_blank">https://www.tenable.com/products/nessus</a></li>
+</ul>
+<b>Your Task:</b> Create a report determining how many critical vulnerabilities exist on the customer data server. Then, build an alert to notify your team if a critical vulnerability reappears on this server. To do so, complete the following steps:
+<ul>
+    <li>Upload the following file from the Nessus vulnerability scan:</li>
+    <ul>
+        <li> <a href="https://drive.google.com/file/d/1AonO8jAN4nKniZDw5qAYoMamBBXLpkdr/view" target="_blank">Nessus Scan Results </a></li>
+    </ul>
+
+<li>Create a report that shows the count of critical vulnerabilities from the customer database server.</li>
+    <ul>
+    <li>The database server IP is 10.11.36.23.</li>
+    <li>The field that identifies the level of vulnerabilities is severity.</li>
+    </ul>
+<li>Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to soc@vandalay.com.</li>
+<li>In your M19 Submission File, include a screenshot of your report and a screenshot showing that the alert has been created.</li>
+</ul>
